@@ -20,7 +20,7 @@ export default function PDFChat() {
   const [chat, setChat] = useState<{ question: string; answer: string }[]>([]);
   const [question, setQuestion] = useState("");
   const [isDragging, setIsDragging] = useState(false);
-  const [recentFiles, setRecentFiles] = useState<SavedFile[]>([
+  const [recentFiles] = useState<SavedFile[]>([
     { name: "Documento1.pdf", lastModified: "2024-02-20", type: "pdf" },
     { name: "Notas.txt", lastModified: "2024-02-19", type: "txt" },
   ]);

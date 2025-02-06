@@ -1,6 +1,10 @@
 # ChatPDF - Pergunte à IA sobre seus Arquivos
 
 Este projeto é um frontend em Next.js que permite aos usuários carregar arquivos PDF ou texto, fazer perguntas para uma IA e adicionar notas diretamente no documento.
+![image](https://github.com/user-attachments/assets/5fe3c6cd-4327-415b-9dc5-d06336c9bced)
+
+![image](https://github.com/user-attachments/assets/ee2ea145-d41a-4cb8-b801-bfc49fbd2c97)
+
 
 ## 🚀 Funcionalidades
 - Upload de arquivos PDF/TXT

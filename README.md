@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ChatPDF - Pergunte à IA sobre seus Arquivos
 
-## Getting Started
+Este projeto é um frontend em Next.js que permite aos usuários carregar arquivos PDF ou texto, fazer perguntas para uma IA e adicionar notas diretamente no documento.
 
-First, run the development server:
+## 🚀 Funcionalidades
+- Upload de arquivos PDF/TXT
+- Exibição do conteúdo carregado
+- Chat com IA sobre o arquivo
+- Adição de anotações no documento
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🛠 Tecnologias Utilizadas
+- Next.js
+- React
+- TypeScript
+- ShadCN/UI (Componentes)
+- TailwindCSS
+
+## 📦 Como Instalar e Executar
+
+### 1️⃣ Clonar o Repositório
+```sh
+git clone https://github.com/rafael-campi/ask-for-file
+cd chatpdf
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2️⃣ Instalar Dependências
+```sh
+yarn install  # ou npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 3️⃣ Rodar o Projeto
+```sh
+yarn dev  # ou npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+O projeto estará disponível em `http://localhost:3000`.
 
-## Learn More
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 📌 Próximos Passos
+- Melhorar UI/UX
+- Usar RAG para melhorar a resposta da IA
+- Implementar suporte para PDFs complexos
+- Adicionar autenticação para salvar anotações
+- Salvar o histórico de perguntas e respostas
+- Implementar suporte para arquivos de outros formatos
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📝 Licença
+Este projeto está sob a licença MIT. Sinta-se livre para contribuir! 🚀
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
